@@ -1,0 +1,124 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla', system-ui;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+h2, h4, p {
+    margin: 0px;
+}
+
+#card{
+    margin: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    overflow: hidden;
+
+}
+
+
+#top-section{
+    height: 45%;
+    width: 100%;
+    padding: 20px;
+}
+
+#bottom-section{
+    height: 55%;
+    width: 100%;
+    color: white;
+
+}
+#bottom-left-section{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background-color: #2bb3b1;
+    vertical-align: top;
+    padding: 25px;
+}
+#bottom-right-section{
+    display:inline-block;
+    height: 100%;
+    width: 50%;
+    background-color: #4abebd;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#top-section h2 {
+    color: #2bb3b1;
+    margin-bottom: 15px;
+}
+
+#top-section h4{
+    color: #C0DF34;
+    margin-bottom: 10px;
+}
+#top-section p {
+    color: #98a6bd;
+}
+
+#sign-up-button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 0px #288f8c;
+}
+
+#sign-up-button:hover{
+    cursor: pointer;
+    background-color: #a8c730;
+    transform: scale(1.02);
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#bottom-left-section h4{
+    margin-bottom: 25px;
+}
+
+#per-month, #price{
+    display: inline-block;
+}
+
+#per-month{
+    position: relative;
+    top: -5px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+
+#price-container{
+    margin-bottom: 10px;
+}
+
+#bottom-left-section p {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    opacity: 0.8;
+    font-size: 0.8rem;
+}
+ul li{
+    margin-bottom: 5px;
+}
